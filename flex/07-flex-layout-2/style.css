@@ -26,20 +26,19 @@ body {
   justify-content: center;
 }
 
-a {
-  text-decoration: none;
-  font-size: 24px;
-  color: white;
-}
-
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
-  box-sizing: border-box;
   display: flex;
   flex-shrink: 0;
   padding: 16px;
@@ -49,10 +48,11 @@ ul {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 32px;
-  width: 300px;
-
- }
+  display: flex;
+  width: 500px;
+  padding: 30px;
+  margin: 20px;
+}
 
 .center {
   display: flex;
@@ -62,7 +62,6 @@ ul {
 .container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  padding: 20px;
-  gap: 10px;
+  width: 3000px;
+  border: black 3px solid;
 }
